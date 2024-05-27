@@ -1,0 +1,13 @@
+{
+  "project_name": "My project",
+  "project_dir": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "full_name": "Your Name",
+  "email": "email@example.com",
+  "github_username": "gh_username",
+  "project_short_description": "Headless cms with django-based server",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.0.1",
+  "cms_template": ["None", "AstroWind"],
+  "__gh_slug": "{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
+}

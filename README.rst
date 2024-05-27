@@ -1,0 +1,4 @@
+======================
+Cookiecutter Django headless cms
+======================
+
